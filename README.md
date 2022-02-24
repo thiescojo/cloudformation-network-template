@@ -3,10 +3,10 @@ Template to create a base AWS network infrastructure.
 
 All resources values will be exported (cross-stack)
 
-Step1 - Deploy a sample network configuration stack with the network template provided.
+**Step1** - Deploy a sample network configuration stack with the network template provided.
 	 For stackname use: SampleNetworkCrossStack
 
-Step2 – Deploy a new stack that will setup a Linux EC2 instance (Web server) and reference the sample network stack previously created.
+**Step2** – Deploy a new stack that will setup a Linux EC2 instance (Web server) and reference the sample network stack previously created.
   Deploy template in us-west-2 region.
 
   Reference all available variables from SampleNetworkCrossStack.
